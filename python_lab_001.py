@@ -209,5 +209,21 @@ print(math.floor(9.9))
 # c = math.sqrt(pow(a, 2) + pow(b, 2))
 # print(f"The hypotenuse is: {round(c, 2)}")
 
+print("------------------------------------------------------------")
+
+
+print("=" * 60)
+print("007 if statements")
+print("=" * 60)
+
+age = 25
+
+if age >= 18:
+    print("You are now signed up!")
+elif age < 0:
+    print("You are not a valid age.")
+else:
+    print("You must be 18+ to sign up.")
 
 print("------------------------------------------------------------")
+
