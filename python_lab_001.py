@@ -148,3 +148,66 @@ print("------------------------------------------------------------")
 print("=" * 60)
 print("006 arithmetic & math")
 print("=" * 60)
+
+friends = 0
+friends += 3
+
+print(friends)
+
+friends -= 1
+friends *= 3
+print(friends)
+
+friends /= 2
+print(friends)
+
+friends **= 2
+print(friends)
+
+remainder = friends % 2
+print(remainder)
+
+x = 3.14
+y = -4
+z = 5
+
+
+result = round(x)
+print(result)
+
+result = abs(y)
+print(result)
+
+result = pow(4, 3)
+print(result)
+
+print(max(x, y, z))
+print(min(x, y, z))
+
+import math # math library
+print(math.pi)
+print(math.e)
+
+x = 9
+result = math.sqrt(x)
+print(result)
+
+print(math.ceil(9.1))
+print(math.floor(9.9))
+
+# import math
+# radius = float(input("Enter the radius of a circle: "))
+# circumference = 2 * math.pi * radius
+# print(f"The circumference of a circle with radius {radius} is {circumference}")
+
+# radius = float(input("Enter the radius of a circle: "))
+# area = math.pi * radius ** 2
+# print(f"The area of a circle is: {round(area, 2)}cm^2")
+
+# a = float(input("Enter side A:"))
+# b = float(input("Enter side B:"))
+# c = math.sqrt(pow(a, 2) + pow(b, 2))
+# print(f"The hypotenuse is: {round(c, 2)}")
+
+
+print("------------------------------------------------------------")
