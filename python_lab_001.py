@@ -216,14 +216,45 @@ print("=" * 60)
 print("007 if statements")
 print("=" * 60)
 
-age = 25
+age = 100
 
-if age >= 18:
-    print("You are now signed up!")
+if age >= 100:
+    print("You are a very old person.")
 elif age < 0:
     print("You are not a valid age.")
+elif age >= 18:
+    print("You are now signed up!")
 else:
     print("You must be 18+ to sign up.")
+
+# response = input("Would you like food? (Y/N): ").upper()
+#
+# if response == "Y":
+#     print("Have some food!")
+# else:
+#     print("No food for you!")
+
+# name = input("Enter your name: ")
+#
+# if name == "":
+#     print("Please enter a name.")
+# else:
+#     print("Welcome, " + name + "!")
+
+
+for_sale = True
+
+if for_sale:
+    print("That item is for sale!")
+else:
+    print("That item is not for sale.")
+
+online = False
+
+if online:
+    print("You are online!")
+else:
+    print("You are offline.")
 
 print("------------------------------------------------------------")
 
