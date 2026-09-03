@@ -263,21 +263,45 @@ print("=" * 60)
 print("008 calculator program")
 print("=" * 60)
 
-operator = input("Enter an operator (+ - * /): ")
-num1 = float(input("Enter the 1st number: "))
-num2 = float(input("Enter the 2nd number: "))
+# operator = input("Enter an operator (+ - * /): ")
+# num1 = float(input("Enter the 1st number: "))
+# num2 = float(input("Enter the 2nd number: "))
+#
+# if operator == "+":
+#     result = num1 + num2
+#     print(round(result))
+# elif operator == "-":
+#     result = num1 - num2
+#     print(round(result))
+# elif operator == "*":
+#     result = num1 * num2
+#     print(round(result))
+# elif operator == "/":
+#     result = num1 / num2
+#     print(round(result))
+# else:
+#     print(f"{operator} is invalid.")
 
-if operator == "+":
-    result = num1 + num2
-    print(round(result))
-elif operator == "-":
-    result = num1 - num2
-    print(round(result))
-elif operator == "*":
-    result = num1 * num2
-    print(round(result))
-elif operator == "/":
-    result = num1 / num2
-    print(round(result))
-else:
-    print(f"{operator} is invalid.")
+print("------------------------------------------------------------")
+
+print("=" * 60)
+print("009 weight conversion program")
+print("=" * 60)
+
+# weight = float(input("Enter your weight: "))
+# unit = input("Kilograms or Pounds? (K or L): ")
+#
+#
+# if unit == "K":
+#     weight = weight * 2.205
+#     unit = "Lbs."
+#     print(f"Your weight is {round(weight, 1)} {unit}.")
+# elif unit == "L":
+#     weight = weight / 2.205
+#     unit = "Kgs."
+#     print(f"Your weight is {round(weight, 1)} {unit}.")
+# else:
+#     print(f"{unit} was not valid.")
+
+
+print("------------------------------------------------------------")
