@@ -310,16 +310,53 @@ print("=" * 60)
 print("010 temperature conversion program")
 print("=" * 60)
 
-unit = input("Is this temperature in Celsius or Fahrenheit (C/F): ")
-temp = float(input("Enter the temperature: "))
+# unit = input("Is this temperature in Celsius or Fahrenheit (C/F): ")
+# temp = float(input("Enter the temperature: "))
+#
+# if unit == "C":
+#     temp = round(temp * 9 / 5 + 32, 1)
+#     print(f"The temperature in Celsius is {temp}°F.")
+# elif unit == "F":
+#     temp = round((temp - 32) * 5 / 9, 1)
+#     print(f"The temperature in Celsius is {temp}°C.")
+# else:
+#     print(f"{unit} is an invalid unit of measurement")
 
-if unit == "C":
-    temp = round(temp * 9 / 5 + 32, 1)
-    print(f"The temperature in Celsius is {temp}°F.")
-elif unit == "F":
-    temp = round((temp - 32) * 5 / 9, 1)
-    print(f"The temperature in Celsius is {temp}°C.")
+print("------------------------------------------------------------")
+
+print("=" * 60)
+print("011 logical operator")
+print("=" * 60)
+
+temp = 25
+is_raining = False
+
+
+if temp > 35 or temp < 0 or is_raining:
+    print("The outdoor event is cancelled")
 else:
-    print(f"{unit} is an invalid unit of measurement")
+    print("The outdoor event is still scheduled")
+
+temp = 25
+is_sunny = False
+
+if temp >= 28 and is_sunny:
+    print("It is HOT outside")
+    print("It is SUNNY")
+elif temp <= 0 and is_sunny:
+    print("It is COLD outside")
+    print("It is SUNNY")
+elif temp < 28 and temp > 0 and is_sunny:
+    print("It is WARM outside")
+    print("It is SUNNY")
+elif temp >= 28 and not is_sunny:
+    print("It is HOT outside")
+    print("It is CLOUDY")
+elif temp <= 0 and not is_sunny:
+    print("It is COLD outside")
+    print("It is CLOUDY")
+elif temp < 28 and temp > 0 and not is_sunny:
+    print("It is WARM outside")
+    print("It is CLOUDY")
 
 print("------------------------------------------------------------")
